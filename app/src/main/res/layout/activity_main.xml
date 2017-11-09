@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.animalsounds.MainActivity"
+    android:background="#99ff99"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Touch to listen"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintVertical_bias="0.0" />
+    
+    <ImageView
+        android:id="@+id/alessiacara1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TextView"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/alessiacara1"/>
+
+    <ImageView
+        android:id="@+id/charlieputh1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/alessiacara1"
+        android:layout_marginLeft="75dp"
+        android:layout_toRightOf="@+id/alessiacara1"
+        android:src="@drawable/charlieputh1"/>
+
+    <ImageView
+        android:id="@+id/harrystyles1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/alessiacara1"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/harrystyles1"/>
+
+
+    <ImageView
+        android:id="@+id/niallhoran1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/harrystyles1"
+        android:layout_marginLeft="75dp"
+        android:layout_toRightOf="@+id/harrystyles1"
+        android:src="@drawable/niallhoran1"
+        tools:layout_editor_absoluteY="215dp"
+        tools:layout_editor_absoluteX="248dp" />
+    
+
+</RelativeLayout>
